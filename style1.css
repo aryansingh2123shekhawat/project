@@ -1,0 +1,370 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #fff;
+    /* background-color: brown; */
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    /* float: right; */
+    /* margin-left: 45%; */
+    /* margin-top: 55px; */
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-playful-portfolio-pink-memphis-image_593415.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.container {
+    padding: 15px 8%;
+}
+
+.logo {
+    font-size: 35px;
+    color: brown;
+    font-weight: bold;
+    text-shadow: 00px 0px 30px brown;
+    border: 2px solid brown;
+    border-radius: 15px;
+    box-shadow: 5px 5px 40px brown;
+    background-color: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+    /* mix-blend-mode: ; */
+    cursor: pointer;
+}
+
+.logo:hover {
+    font-size: 35px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 5px 5px 30px white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: inline-block;
+    /* list-style: none; */
+    margin: 10px 20px;
+    text-shadow: 0px 0px 25px brown;
+
+}
+
+nav ul li:hover {
+    text-shadow: 0px 0px 25px white;
+}
+
+nav ul li a {
+    color: brown;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    /* font-family:; */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: brown;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+
+}
+
+.header-text {
+    margin-top: 15%;
+    color: brown;
+    text-shadow: 0px 0px 29px brown;
+
+}
+
+.header-text p {
+    margin-top: 20px;
+    font-size: 25px;
+    /* font-family: ; */
+    font-weight: bold;
+}
+
+.header-text p span {
+    font-size: 45px;
+    color: maroon;
+    text-shadow: 0px 0px 29px maroon;
+    /* font-family: ; */
+    font-weight: bold;
+}
+
+.head-img {
+    position: absolute;
+    right: 90px;
+    bottom: 40px;
+    width: 480px;
+    height: 470px;
+    box-sizing: border-box;
+    border: 4px solid pink;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px brown,0px 0px 20px brown,0px 0px 20px brown,0px 0px 20px brown;
+    /* mix-blend-mode:color-burn ; */
+}
+.cv{
+    margin-top: 40px;
+    color:pink;
+    /* border: 2px solid brown; */
+    border-radius: 20px;
+    box-sizing: border-box ;
+    width: 126px;
+    padding: 10px;
+    background-color: brown;
+    text-shadow: 5px 5px 20px maroon;
+    box-shadow: 0px 0px 30px maroon;
+    font-weight: bold;
+
+}
+.cv:hover{
+    box-shadow: 0px 0px 30px white,0px 0px 30px white,
+    0px 0px 30px white,0px 0px 30px white;
+    /* border: 2px solid; */
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.about{
+    padding: 80px 0px;
+    /* color: red; */
+    background-color:brown;
+    box-shadow: 0px 0px 20px maroon;
+}
+.rows{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-img{
+    flex-basis: 35%;
+}
+.about-img img{
+    width: 85%;
+    /* height: 65vh; */
+    border-radius: 100%;
+    border: 5px solid brown;
+    box-shadow: 0px 0px 30px pink,0px 0px 30px pink,0px 0px 30px pink,0px 0px 30px pink;
+}
+.about-text{
+    flex-basis: 60%;
+    color: pink;
+    text-shadow: 0px 0px 20px pink;
+}
+.about-text h1{
+    text-decoration: underline;
+}
+/* .about-text:hover */
+.about-para{
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-btn{
+    background-color: pink;
+    color: brown;
+    margin-top: 45px;
+    width: 140px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 30px pink,0px 0px 30px pink,
+    0px 0px 30px pink,0px 0px 30px pink ;
+    border: 2px solid brown;
+    /* text-shadow: 0px 0px 50px brown; */
+}
+.about-btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0px 0px 30px white,0px 0px 30px white,
+    0px 0px 30px white,0px 0px 30px white;
+    cursor: pointer;
+}
+.work{
+    padding: 50px 0;
+    background-color: pink;
+    color:pink;
+    width: 100%;
+    height: 80vh;
+    box-shadow: 0px 0px 20px pink;
+}
+.sub-title{
+    color: brown;
+    font-size: 40px;
+    text-shadow: 0px 0px 30px brown;
+    text-decoration: underline;
+}
+.work-list{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   grid-gap: 150px;
+   margin-top: 70px;
+}
+.work-list span{
+    background-color: brown;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+   box-shadow: 0px 0px 40px brown;
+   transition: 0.5s;
+
+}
+.work-list span:hover{
+    transition: 0.5s;
+}
+.work-list span i{
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.work-list span h2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 30px pink;
+}
+.work-list span p i{
+    font-size: 20px;
+    text-shadow: 0px 0px 30px pink;
+    font-weight: bold;
+    
+}
+.work-list span p{
+    font-size: 15px;
+    text-shadow: 0px 0px 10px pink;
+    font-weight: bold;
+}
+.project{
+    padding: 30px 0;
+    background-color: brown;
+    color: pink;
+    text-shadow: 0px 0px 30px pink;
+    box-shadow: 0px 0px 30px brown;
+    height: 100vh;
+}
+.sub-title-project{
+    text-decoration: underline;
+}
+.project-row1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-img{
+    flex-basis: 35% ;
+}
+.project-img img{
+    width: 100%;
+    /* height: 40vh;     */
+    margin-top: 50px;
+    border: 3px solid pink;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px pink;
+}
+.project-text1{
+    flex-basis: 55%;
+    margin-top: 50px;
+    color: pink;
+    text-shadow: 0px 0px 30px pink;
+    
+}
+.project-text1 h1{
+    text-decoration: underline;
+}
+.project-text1 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 30px pink;
+    font-weight: bold;
+}
+ .project-text1 div {
+    margin-top: 10px;
+    border: 1px solid pink;
+    border-radius: 5px;
+    box-shadow:0px 0px 30px pink ;
+    width:  101px;
+    padding: 4px;
+    font-size: 12px;
+    background-color: pink;
+    color: brown;
+    font-weight: bold;
+ }
+ .project-text1 div:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 30px white;
+    border: 1px solid black;
+    cursor: pointer;
+ }
+
+/* -------------------contact--------------- */
+.contact{
+    color: brown;
+    background-color:pink;
+    width: 100%;
+    height: 30vh;
+    padding: 20px 0 ;
+    text-shadow: 0px 0px 20px pink;
+    /* box-shadow: 0px 0px 30px pink; */
+}
+.contact-title{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0px 0px 30px brown;
+}
+.contact-row{
+    padding: 50px 0;
+    text-align: center;
+}
+.social-icons span{
+    padding-right: 60px;
+    font-weight: bold;
+    text-shadow: 0px 0px 30px brown;
+}
+.social-icons i{
+    padding-right: 5px;
+    font-weight: bold;
+}
+/*-------------- footer-------------- */
+.footer{
+    background-color: black;
+}
+.footer-row p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
